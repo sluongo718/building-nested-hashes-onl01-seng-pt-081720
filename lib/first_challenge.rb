@@ -4,7 +4,10 @@ def first_challenge
        :patriarch => {name: "Lord Montague", age: "53"},
        :matriarch => {name: "Lady Montague", age: "54"},
        :hero => {name: "Romeo", age: "15", statue: "alive"},
-       :hero_friend => []
+       :hero_friend => [{
+         name: "Benvolio", age: "17", attitude: "worried"
+       }, {name: "Mercutio", age: "18", attitude: "hot-headed"}
+       ]
      },
      :capulet => {
        :patriarch => {name: "Lord Capulet", age: "50"},
