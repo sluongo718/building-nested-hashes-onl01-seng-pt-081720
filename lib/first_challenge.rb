@@ -13,7 +13,10 @@ def first_challenge
        :patriarch => {name: "Lord Capulet", age: "50"},
        :matriarch => {name: "Lady Capulet", age: "51"},
        :herione => {name: "Juliet", age: "15", status: "alive"},
-       :herione_friend => []
+       :herione_friend => [
+         {name: "steven", age: "30", attitude: "confused"},
+         {name: "Nurse", age: "44", attitude: "worried"}
+       ]
      }
    }
 end
